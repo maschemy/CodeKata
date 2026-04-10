@@ -20,7 +20,7 @@ public class Solution {
     public int solution(int n) {
         int answer = 0;
 
-        while(true){
+        while(n > 10){
             answer+=n%10;
             if(n<10)
                 break;
