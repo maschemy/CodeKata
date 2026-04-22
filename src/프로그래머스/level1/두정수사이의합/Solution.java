@@ -20,17 +20,9 @@ public class Solution {
     }
 }
 
-// 다른 사람의 풀이
+// 다른 풀이 방법
 /*
 
-3
-4
-5
-6
-7
-8
-9
-10
 class Solution {
   public long solution(int a, int b) {
       long answer = 0;
