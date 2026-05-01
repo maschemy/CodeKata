@@ -7,7 +7,7 @@ public class Solution {
     }
 }
 
-// 다른 사람의 풀이
+// 다른 방법의 풀이
 /*
 public class StrToInt {
     public int getStrToInt(String str) {

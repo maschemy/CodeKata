@@ -3,7 +3,7 @@ package 프로그래머스.level1.자연수뒤집어배열로만들기;
 class Solution {
         public int[] solution(long n) {
             int reversedNum = 0;
-            String numed = "" + n;
+            String numed = "" + n; //string + 숫자 = 문자열(숫자를 문자열로 자동 변환)
             int[] answer = new int[numed.length()];
             for(int i = 0; i < numed.length(); i++){
                 reversedNum = numed.charAt(i) - '0';
